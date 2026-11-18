@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3639606100875723059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3537145405722434395}
+  - component: {fileID: 2525702116262364858}
+  - component: {fileID: 7703858838635606921}
+  m_Layer: 9
+  m_Name: ContactZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3537145405722434395
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639606100875723059}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5050058961201858018}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &2525702116262364858
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639606100875723059}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.07692307}
+  m_Size: {x: 0.79999995, y: 1.4}
+  m_Direction: 0
+--- !u!114 &7703858838635606921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639606100875723059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d805362c5c34449b1fe36662f16bb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.EnemyContactZone
+--- !u!1 &4206523643613498575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5050058961201858018}
+  - component: {fileID: 6052509805658198045}
+  - component: {fileID: 2910885433097880091}
+  - component: {fileID: 6368039476078523012}
+  - component: {fileID: 244753507673204777}
+  - component: {fileID: 2021047290530489818}
+  - component: {fileID: 3264945070275787422}
+  - component: {fileID: 5268285321648992858}
+  m_Layer: 8
+  m_Name: Goblin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5050058961201858018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3537145405722434395}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6052509805658198045
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_Sprite: {fileID: 21300000, guid: 7a49c6723bfe57842b2bdd31ab16c3c5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.9692308, y: 1.9692308}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &2910885433097880091
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 2.5
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &6368039476078523012
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.07692307}
+  m_Size: {x: 0.65, y: 1.3}
+  m_Direction: 0
+--- !u!114 &244753507673204777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cfcebe9392d254c863b389a05d48f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.SpriteFrameAnimator
+  clips:
+  - name: Idle
+    frames:
+    - {fileID: 21300000, guid: 7a49c6723bfe57842b2bdd31ab16c3c5, type: 3}
+    - {fileID: 21300000, guid: a3c1bb1346bb5884ea85bd7ef090ca9c, type: 3}
+    - {fileID: 21300000, guid: 2c1b029b5c993f047b80ea7f2b1a296c, type: 3}
+    - {fileID: 21300000, guid: e74fef02eab7ee64e846f9699e6b58e0, type: 3}
+    - {fileID: 21300000, guid: 03fb8a4151fd0f84d87ce39e16fe7fde, type: 3}
+    - {fileID: 21300000, guid: b535f576d6ec6874c93fa6d15b284ec9, type: 3}
+    framesPerSecond: 8
+    loop: 1
+    holdLastFrame: 0
+  - name: Run
+    frames:
+    - {fileID: 21300000, guid: ea17ab3fc89dd6c439b1c8d4e7ff670e, type: 3}
+    - {fileID: 21300000, guid: 5346da679c57cf7458f170c86285d02f, type: 3}
+    - {fileID: 21300000, guid: 2c78769eb9f238a4ca7d003008a3a2f1, type: 3}
+    - {fileID: 21300000, guid: 65adb789390420441a3f53ef36f66ab8, type: 3}
+    - {fileID: 21300000, guid: e63461a0d42ebfa4d835bd2096695aa2, type: 3}
+    - {fileID: 21300000, guid: 63bc89dcb7bfe7a41929fe7eb98badb6, type: 3}
+    framesPerSecond: 12
+    loop: 1
+    holdLastFrame: 0
+  - name: Attack
+    frames:
+    - {fileID: 21300000, guid: 4c41b2982d767294082331631765fd7c, type: 3}
+    - {fileID: 21300000, guid: 76033767b5091e142a3c85f173b355a5, type: 3}
+    - {fileID: 21300000, guid: 76dba596840a2f548949884a0afd8e0e, type: 3}
+    - {fileID: 21300000, guid: 5dce60499d2073a42a7cc77cbd16f9cf, type: 3}
+    - {fileID: 21300000, guid: 44535ab82cc21ab479d6f5bfe89c201c, type: 3}
+    - {fileID: 21300000, guid: 67c4abbfd1298044480a5a2d5d3c9d28, type: 3}
+    framesPerSecond: 12
+    loop: 0
+    holdLastFrame: 0
+  - name: Jump
+    frames:
+    - {fileID: 21300000, guid: c913a7c4dc7734349ac9d549c5e71549, type: 3}
+    - {fileID: 21300000, guid: 73d3ef0a1a468ec449c7dfa85d14d3c7, type: 3}
+    - {fileID: 21300000, guid: 528c50e90b6dbbc4aa2dcc1470779b59, type: 3}
+    - {fileID: 21300000, guid: 93057cabbbd771546baba048650d23db, type: 3}
+    - {fileID: 21300000, guid: eafe805ea564a174a952b451a9244a89, type: 3}
+    - {fileID: 21300000, guid: 6b82620c5786279418fe8ca3747901c8, type: 3}
+    framesPerSecond: 10
+    loop: 0
+    holdLastFrame: 0
+  - name: Hit
+    frames:
+    - {fileID: 21300000, guid: af6654245ee84cd4cb5613c65a5af32e, type: 3}
+    - {fileID: 21300000, guid: c0abf3f01b712c744a321ef70a4e8d8d, type: 3}
+    - {fileID: 21300000, guid: 7fdcecb4d9954ed48b1a5922a4f9874c, type: 3}
+    - {fileID: 21300000, guid: d2ab39251dce62b4a8838557a6a14789, type: 3}
+    - {fileID: 21300000, guid: 7b0d8f482cd94aa4e80d4e408a007927, type: 3}
+    - {fileID: 21300000, guid: a3df32610202b48458d8b76e5e073736, type: 3}
+    framesPerSecond: 14
+    loop: 0
+    holdLastFrame: 0
+  - name: Death
+    frames:
+    - {fileID: 21300000, guid: 0a3ef2f970fac974db8a9c3100eeee2a, type: 3}
+    - {fileID: 21300000, guid: 11cf0c8ea23f8804a815e99249da0643, type: 3}
+    - {fileID: 21300000, guid: 136257a0df2314844a1ab7c51c1ae2c3, type: 3}
+    - {fileID: 21300000, guid: dd8316f386bd6824a86eea84d33c8142, type: 3}
+    - {fileID: 21300000, guid: fc7f5c92207752b4f91e655bab523620, type: 3}
+    - {fileID: 21300000, guid: 0aeef7d1754b07045a6b58bf4cccfd1e, type: 3}
+    framesPerSecond: 10
+    loop: 0
+    holdLastFrame: 1
+--- !u!114 &2021047290530489818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b802a445b94992d4fb28d1b197906ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.Health
+  <MaxHealth>k__BackingField: 2
+  <InvulnerabilitySeconds>k__BackingField: 0.25
+  <DestroyOnDeath>k__BackingField: 1
+  <DestroyDelay>k__BackingField: 0.9
+--- !u!114 &3264945070275787422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1227b44c092d948b26740981f15522, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.EnemyController
+  <DisplayName>k__BackingField: Goblin
+  <Movement>k__BackingField: 0
+  <MoveSpeed>k__BackingField: 2
+  <ChargeSpeed>k__BackingField: 4.5
+  <PatrolDistance>k__BackingField: 3
+  <DetectionDistance>k__BackingField: 5
+  <ContactDamage>k__BackingField: 1
+  <Stompable>k__BackingField: 1
+  <IsBoss>k__BackingField: 0
+--- !u!114 &5268285321648992858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206523643613498575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80011bd866ac55445bd992f4c7877041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.DamageFlash
+  <BlinkWhileInvulnerable>k__BackingField: 0

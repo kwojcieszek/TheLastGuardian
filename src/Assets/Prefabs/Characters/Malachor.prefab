@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1794385235773006264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5015260366724845051}
+  - component: {fileID: 7569806564051734286}
+  - component: {fileID: 3417835409284743729}
+  - component: {fileID: 4391702089875426407}
+  - component: {fileID: 671412488789473224}
+  - component: {fileID: 4899287151763341592}
+  - component: {fileID: 9124047861858073052}
+  - component: {fileID: 5403183748165999419}
+  - component: {fileID: 6487495843986591005}
+  m_Layer: 8
+  m_Name: Malachor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5015260366724845051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1550171339458325270}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7569806564051734286
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 9
+  m_Sprite: {fileID: 21300000, guid: 5d5bcf82a99a67942b121c0a3ec8d6ec, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 2.56}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &3417835409284743729
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 2.5
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &4391702089875426407
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.045000017}
+  m_Size: {x: 0.8, y: 1.8}
+  m_Direction: 0
+--- !u!114 &671412488789473224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cfcebe9392d254c863b389a05d48f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.SpriteFrameAnimator
+  clips:
+  - name: Idle
+    frames:
+    - {fileID: 21300000, guid: 5d5bcf82a99a67942b121c0a3ec8d6ec, type: 3}
+    - {fileID: 21300000, guid: e615023f2efb3b047952e7f939abf9c0, type: 3}
+    - {fileID: 21300000, guid: 5dcae5088f4214146a44d68479dd4888, type: 3}
+    - {fileID: 21300000, guid: b59ba7dd7873ab541af931d26197eb17, type: 3}
+    - {fileID: 21300000, guid: 0a71c8ab20c1a0a4599414df55a87193, type: 3}
+    - {fileID: 21300000, guid: 888ac79fcaeacb547bc70587fd5cb957, type: 3}
+    framesPerSecond: 8
+    loop: 1
+    holdLastFrame: 0
+  - name: Run
+    frames:
+    - {fileID: 21300000, guid: c1bc23e5a93deb346b912ec5c3c6deab, type: 3}
+    - {fileID: 21300000, guid: 7fccca0da57eb654187413f8153155de, type: 3}
+    - {fileID: 21300000, guid: 8ab140d97d2f7904fb450c11f7af68b9, type: 3}
+    - {fileID: 21300000, guid: 14e2ccc04f0dcf44e817a03258c16448, type: 3}
+    - {fileID: 21300000, guid: 91c0429d9333e5e4cb938778c73df429, type: 3}
+    - {fileID: 21300000, guid: b232b1c8a1f2e50409ffd3cfae4b3c81, type: 3}
+    framesPerSecond: 12
+    loop: 1
+    holdLastFrame: 0
+  - name: Attack
+    frames:
+    - {fileID: 21300000, guid: fb746e3e65620f54ab6ee02823b63733, type: 3}
+    - {fileID: 21300000, guid: 1b1dabc704c2039498c965908b0728c4, type: 3}
+    - {fileID: 21300000, guid: 05959712343a2ce459bd3b08f33e356a, type: 3}
+    - {fileID: 21300000, guid: 9716b80f4d7c4c74ab5a36377082c96b, type: 3}
+    - {fileID: 21300000, guid: fb83f2c35517b2b449ffd7f18f2941b6, type: 3}
+    - {fileID: 21300000, guid: dd9f6fe66b579534ebfa78f5280e341a, type: 3}
+    framesPerSecond: 12
+    loop: 0
+    holdLastFrame: 0
+  - name: Jump
+    frames:
+    - {fileID: 21300000, guid: 6f813823934eba0479cdef1786a646a5, type: 3}
+    - {fileID: 21300000, guid: fc56c4729e869a44ca7e88bfda868a0b, type: 3}
+    - {fileID: 21300000, guid: a2000d366347c2f4b8f8ee037365af30, type: 3}
+    - {fileID: 21300000, guid: ee9d6e01de6150a43a3c34d2537b3fc7, type: 3}
+    - {fileID: 21300000, guid: d008ac0dcbb5a82439507cf9b92d1a9c, type: 3}
+    - {fileID: 21300000, guid: ccba079efa32eff4b85ac05829cb8514, type: 3}
+    framesPerSecond: 10
+    loop: 0
+    holdLastFrame: 0
+  - name: Hit
+    frames:
+    - {fileID: 21300000, guid: e30ec4f7cb85d5f4187034e50b19fd38, type: 3}
+    - {fileID: 21300000, guid: 7433d4ebbaae729498b583c89264ddaf, type: 3}
+    - {fileID: 21300000, guid: ebbae759fc336374198352c28af7130f, type: 3}
+    - {fileID: 21300000, guid: 9fc57feb18798f049b47ba7f9e7403d1, type: 3}
+    - {fileID: 21300000, guid: e1abd7241e8fa774ca2c8c326dd2a5a6, type: 3}
+    - {fileID: 21300000, guid: cc45855507e442943a082d4f644b665f, type: 3}
+    framesPerSecond: 14
+    loop: 0
+    holdLastFrame: 0
+  - name: Death
+    frames:
+    - {fileID: 21300000, guid: 29f1c9c4263b97f4eacc6262a89f998b, type: 3}
+    - {fileID: 21300000, guid: a220de42dabaae54db17fa280ccf3863, type: 3}
+    - {fileID: 21300000, guid: 10c2efe63ff73c843bcb3af11323383f, type: 3}
+    - {fileID: 21300000, guid: a65022afc6dfd7046ab5cb5c09c6c6e7, type: 3}
+    - {fileID: 21300000, guid: b1e5661b30e078041b6e7a3ded1c8eee, type: 3}
+    - {fileID: 21300000, guid: 71d36c9fba138124899a5e5e36fc9e6f, type: 3}
+    framesPerSecond: 10
+    loop: 0
+    holdLastFrame: 1
+--- !u!114 &4899287151763341592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b802a445b94992d4fb28d1b197906ef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.Health
+  <MaxHealth>k__BackingField: 25
+  <InvulnerabilitySeconds>k__BackingField: 0.35
+  <DestroyOnDeath>k__BackingField: 1
+  <DestroyDelay>k__BackingField: 0.9
+--- !u!114 &9124047861858073052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1227b44c092d948b26740981f15522, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.EnemyController
+  <DisplayName>k__BackingField: Malachor
+  <Movement>k__BackingField: 0
+  <MoveSpeed>k__BackingField: 1.4
+  <ChargeSpeed>k__BackingField: 4.5
+  <PatrolDistance>k__BackingField: 5
+  <DetectionDistance>k__BackingField: 9
+  <ContactDamage>k__BackingField: 1
+  <Stompable>k__BackingField: 0
+  <IsBoss>k__BackingField: 1
+--- !u!114 &5403183748165999419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80011bd866ac55445bd992f4c7877041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.DamageFlash
+  <BlinkWhileInvulnerable>k__BackingField: 0
+--- !u!114 &6487495843986591005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794385235773006264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e123705ff1b16b44855897781c40374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.MalachorBoss
+  <OrbPrefab>k__BackingField: {fileID: 2733133996013680467, guid: 57e56bc3c559b1c438b810e613b7c7b2, type: 3}
+  <MinionPrefab>k__BackingField: {fileID: 8617385643684892499, guid: 9ca74159f4c7a7946ba422862a58f29e, type: 3}
+  <RunePrefab>k__BackingField: {fileID: 4009936870709528404, guid: 2910b4440d8f32d41a1032fa64d61a68, type: 3}
+  <OrbSpeed>k__BackingField: 5.5
+  <MinionSpawnY>k__BackingField: -0.66249996
+  <RuneY>k__BackingField: -1.35
+--- !u!1 &2016942111603564205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1550171339458325270}
+  - component: {fileID: 5376310997442059478}
+  - component: {fileID: 794880356560457236}
+  m_Layer: 9
+  m_Name: ContactZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1550171339458325270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016942111603564205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5015260366724845051}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &5376310997442059478
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016942111603564205}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.045000017}
+  m_Size: {x: 0.95000005, y: 1.9}
+  m_Direction: 0
+--- !u!114 &794880356560457236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016942111603564205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d805362c5c34449b1fe36662f16bb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.EnemyContactZone

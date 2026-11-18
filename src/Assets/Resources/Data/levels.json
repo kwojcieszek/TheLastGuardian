@@ -1,0 +1,748 @@
+{
+  "game": "The Last Guardian",
+  "version": "0.4.0",
+  "levels": [
+    {
+      "id": 1,
+      "slug": "Village",
+      "name": "Village of Oaks",
+      "biome": "Burning cottages and a village alarm bell",
+      "lengthMeters": 1100,
+      "estimatedMinutes": 5,
+      "difficulty": 1,
+      "mechanic": "Movement, jumping, and sword attack tutorial",
+      "enemyTypes": [
+        "Goblin",
+        "Wolf"
+      ],
+      "hazards": [
+        "Fence",
+        "well",
+        "barrel"
+      ],
+      "objective": "Save a villager and locate the trace of the violet portal",
+      "story": "Piter witnesses Malachor abducting his sister Aleksandra.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 66,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_01_Village",
+      "background": "Art/Backgrounds/01_Village",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Movement, jumping, and sword attack tutorial"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Goblin, Wolf — hazards: Fence, well, barrel"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Save a villager and locate the trace of the violet portal"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        364.0,
+        724.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 2,
+      "slug": "Forest",
+      "name": "Whispering Forest",
+      "biome": "Enchanted forest with concealed trails",
+      "lengthMeters": 1200,
+      "estimatedMinutes": 6,
+      "difficulty": 2,
+      "mechanic": "Double jump, bow, and traps",
+      "enemyTypes": [
+        "Goblin",
+        "Wolf",
+        "Harpy"
+      ],
+      "hazards": [
+        "Spikes",
+        "pit trap",
+        "fallen logs"
+      ],
+      "objective": "Find the Silver Leaf and open the forest path",
+      "story": "A forest spirit directs Piter toward the ruined watchtower.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 75,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_02_Forest",
+      "background": "Art/Backgrounds/02_Forest",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Double jump, bow, and traps"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Goblin, Wolf, Harpy — hazards: Spikes, pit trap, fallen logs"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Find the Silver Leaf and open the forest path"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        364.0,
+        804.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 3,
+      "slug": "Ruins",
+      "name": "Ruins of the Watchtower",
+      "biome": "Collapsed royal watch fortress",
+      "lengthMeters": 1300,
+      "estimatedMinutes": 6,
+      "difficulty": 3,
+      "mechanic": "Switches and vertical platforms",
+      "enemyTypes": [
+        "Skeleton",
+        "Harpy"
+      ],
+      "hazards": [
+        "Collapsed wall",
+        "arrows",
+        "chasm"
+      ],
+      "objective": "Activate three levers and defeat the Bone Captain",
+      "story": "A royal guard’s journal reveals the sorcerer’s name.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 81,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_03_Ruins",
+      "background": "Art/Backgrounds/03_Ruins",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Switches and vertical platforms"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Skeleton, Harpy — hazards: Collapsed wall, arrows, chasm"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Activate three levers and defeat the Bone Captain"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        404.0,
+        884.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 4,
+      "slug": "Mine",
+      "name": "Shadow Mine",
+      "biome": "Underground shafts and ore carts",
+      "lengthMeters": 1400,
+      "estimatedMinutes": 7,
+      "difficulty": 4,
+      "mechanic": "Moving platforms and timed traps",
+      "enemyTypes": [
+        "Goblin",
+        "Golem"
+      ],
+      "hazards": [
+        "Mine carts",
+        "stalactites",
+        "lava"
+      ],
+      "objective": "Retrieve the Echo Crystal and escape the cave-in",
+      "story": "A mysterious crystal lets Piter hear his sister’s voice.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 89,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_04_Mine",
+      "background": "Art/Backgrounds/04_Mine",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Moving platforms and timed traps"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Goblin, Golem — hazards: Mine carts, stalactites, lava"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Retrieve the Echo Crystal and escape the cave-in"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        444.0,
+        924.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 5,
+      "slug": "Waterfall",
+      "name": "Waterfall Valley",
+      "biome": "Waterfall bridges and mist",
+      "lengthMeters": 1500,
+      "estimatedMinutes": 7,
+      "difficulty": 5,
+      "mechanic": "Water crossings, ropes, and wind",
+      "enemyTypes": [
+        "Harpy",
+        "Wolf"
+      ],
+      "hazards": [
+        "Raging river",
+        "broken bridge",
+        "whirlpool"
+      ],
+      "objective": "Cross the valley and recover the castle map",
+      "story": "Aleksandra marks the castle on a magical map.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 94,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_05_Waterfall",
+      "background": "Art/Backgrounds/05_Waterfall",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Water crossings, ropes, and wind"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Harpy, Wolf — hazards: Raging river, broken bridge, whirlpool"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Cross the valley and recover the castle map"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        484.0,
+        1004.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 6,
+      "slug": "Castle",
+      "name": "Castle on the Hill",
+      "biome": "Outer courtyard, walls, and watchtowers",
+      "lengthMeters": 1600,
+      "estimatedMinutes": 8,
+      "difficulty": 6,
+      "mechanic": "Projectile defense and mechanisms",
+      "enemyTypes": [
+        "Skeleton",
+        "Golem"
+      ],
+      "hazards": [
+        "Catapult",
+        "flaming arrows",
+        "fortress gate"
+      ],
+      "objective": "Defeat the Gate Guardian miniboss",
+      "story": "Beyond the fortress walls Piter discovers Dragon Pass.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 100,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_06_Castle",
+      "background": "Art/Backgrounds/06_Castle",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Projectile defense and mechanisms"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Skeleton, Golem — hazards: Catapult, flaming arrows, fortress gate"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Defeat the Gate Guardian miniboss"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        524.0,
+        1084.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 7,
+      "slug": "DragonPass",
+      "name": "Dragon Pass",
+      "biome": "Rocky cliffs and dragon nests",
+      "lengthMeters": 1700,
+      "estimatedMinutes": 8,
+      "difficulty": 7,
+      "mechanic": "Avoiding fire and using cover",
+      "enemyTypes": [
+        "Dragon",
+        "Harpy"
+      ],
+      "hazards": [
+        "Fireballs",
+        "boulders",
+        "landslides"
+      ],
+      "objective": "Destroy three corrupted dragon eggs and overcome the young dragon",
+      "story": "Piter spares a young dragon, which reveals a secret route.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 108,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_07_DragonPass",
+      "background": "Art/Backgrounds/07_DragonPass",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Avoiding fire and using cover"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Dragon, Harpy — hazards: Fireballs, boulders, landslides"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Destroy three corrupted dragon eggs and overcome the young dragon"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        564.0,
+        1124.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 8,
+      "slug": "Catacombs",
+      "name": "Dark Catacombs",
+      "biome": "Tombs beneath the citadel and green flames",
+      "lengthMeters": 1800,
+      "estimatedMinutes": 9,
+      "difficulty": 8,
+      "mechanic": "Light, keys, and hidden passages",
+      "enemyTypes": [
+        "Skeleton",
+        "Golem"
+      ],
+      "hazards": [
+        "Spikes",
+        "poison fumes",
+        "pressure plates"
+      ],
+      "objective": "Collect the three Seals of Light",
+      "story": "The collected seals create a shield against Malachor’s curse.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 112,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_08_Catacombs",
+      "background": "Art/Backgrounds/08_Catacombs",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Light, keys, and hidden passages"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Skeleton, Golem — hazards: Spikes, poison fumes, pressure plates"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Collect the three Seals of Light"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        564.0,
+        1204.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 9,
+      "slug": "Tower",
+      "name": "Sorcerer’s Tower",
+      "biome": "Spiral tower, portals, and arcane magic",
+      "lengthMeters": 1900,
+      "estimatedMinutes": 9,
+      "difficulty": 9,
+      "mechanic": "Teleporters and localized inverted gravity",
+      "enemyTypes": [
+        "Harpy",
+        "Skeleton",
+        "Golem"
+      ],
+      "hazards": [
+        "Pendulums",
+        "magic beams",
+        "collapsing stairs"
+      ],
+      "objective": "Destroy four prison crystals",
+      "story": "Piter finds Aleksandra, but a magical barrier separates them.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 119,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_09_Tower",
+      "background": "Art/Backgrounds/09_Tower",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Teleporters and localized inverted gravity"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Harpy, Skeleton, Golem — hazards: Pendulums, magic beams, collapsing stairs"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Destroy four prison crystals"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        604.0,
+        1284.0
+      ],
+      "layoutData": "level_layouts.json"
+    },
+    {
+      "id": 10,
+      "slug": "Final",
+      "name": "Hall of the Final Spell",
+      "biome": "Malachor’s throne and Aleksandra’s prison",
+      "lengthMeters": 2000,
+      "estimatedMinutes": 10,
+      "difficulty": 10,
+      "mechanic": "Boss phases, evasive movement, and projectile reflection",
+      "enemyTypes": [
+        "Malachor (boss)",
+        "summoned skeletons"
+      ],
+      "hazards": [
+        "Fire runes",
+        "energy beams",
+        "explosions"
+      ],
+      "objective": "Defeat Malachor and free Aleksandra",
+      "story": "The siblings return home together. The end credits roll.",
+      "checkpoints": [
+        0.0,
+        0.33,
+        0.68,
+        1.0
+      ],
+      "collectibles": {
+        "coins": 126,
+        "secretChests": 2,
+        "healthPotions": 3
+      },
+      "scene": "Level_10_Final",
+      "background": "Art/Backgrounds/10_Final",
+      "acts": [
+        {
+          "segment": "Introduction",
+          "distanceFraction": [
+            0,
+            0.25
+          ],
+          "challenge": "Storytelling and a safe introduction to the controls"
+        },
+        {
+          "segment": "Development",
+          "distanceFraction": [
+            0.25,
+            0.65
+          ],
+          "challenge": "Boss phases, evasive movement, and projectile reflection"
+        },
+        {
+          "segment": "Climax",
+          "distanceFraction": [
+            0.65,
+            0.9
+          ],
+          "challenge": "Malachor (boss), summoned skeletons — hazards: Fire runes, energy beams, explosions"
+        },
+        {
+          "segment": "Conclusion",
+          "distanceFraction": [
+            0.9,
+            1.0
+          ],
+          "challenge": "Defeat Malachor and free Aleksandra"
+        }
+      ],
+      "actualCheckpointsMeters": [
+        4.0,
+        644.0,
+        1364.0
+      ],
+      "layoutData": "level_layouts.json"
+    }
+  ]
+}

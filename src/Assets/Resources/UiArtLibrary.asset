@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: addeb5457bb902c47b1c779be08e0983, type: 3}
+  m_Name: UiArtLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::PiterGame.UiArtLibrary
+  <Heart>k__BackingField: {fileID: 21300000, guid: 073d9f921085ca2488fc491f33ee6517, type: 3}
+  <Coin>k__BackingField: {fileID: 21300000, guid: 38b13f15bb7581848b39fc246bf41391, type: 3}
+  <Potion>k__BackingField: {fileID: 21300000, guid: a85146adffd53f741ad7c3bd25bcfa32, type: 3}
+  <Pause>k__BackingField: {fileID: 21300000, guid: e27631953aeee054c837c07421db84a0, type: 3}
+  <Jump>k__BackingField: {fileID: 21300000, guid: fb594cad2a0c9f0418bd85ab1a36e78d, type: 3}
+  <Attack>k__BackingField: {fileID: 21300000, guid: 8c43f9633fc0ac94a86300716293e874, type: 3}
+  <Chest>k__BackingField: {fileID: 21300000, guid: 8211f3c9e833e2d4e83cc1a0c1eebfd6, type: 3}
+  <Sword>k__BackingField: {fileID: 21300000, guid: 6ef6d12043629b346967c73f9f2323e4, type: 3}
+  <Piter>k__BackingField: {fileID: 21300000, guid: 1ec43cd1f9d41d249a892647556cf099, type: 3}
+  <Aleksandra>k__BackingField: {fileID: 21300000, guid: 381d5461f5e6bc94aa5553b73e620351, type: 3}
+  <Malachor>k__BackingField: {fileID: 21300000, guid: 997ed55a891d51e4c9e5e4ba94d974a6, type: 3}
+  <Portraits>k__BackingField:
+  - speaker: Piter
+    sprite: {fileID: 21300000, guid: 1ec43cd1f9d41d249a892647556cf099, type: 3}
+  - speaker: Aleksandra
+    sprite: {fileID: 21300000, guid: 381d5461f5e6bc94aa5553b73e620351, type: 3}
+  - speaker: Malachor
+    sprite: {fileID: 21300000, guid: 997ed55a891d51e4c9e5e4ba94d974a6, type: 3}
+  - speaker: Gate Guardian
+    sprite: {fileID: 21300000, guid: 16b78881714926f4c9961c6c988d6ad0, type: 3}
+  - speaker: Young Dragon
+    sprite: {fileID: 21300000, guid: 6acc52f2898cb4c4b84fb741ad053022, type: 3}
+  - speaker: Royal Guard
+    sprite: {fileID: 21300000, guid: 0d7f91a122e2b8643921f04b0770250d, type: 3}
+  <LevelPreviews>k__BackingField:
+  - {fileID: 21300000, guid: beb4645f9a4f4d04c9eed25d042aa96c, type: 3}
+  - {fileID: 21300000, guid: 6ea65a906b8edea43876af0a95318ae1, type: 3}
+  - {fileID: 21300000, guid: 0e78431692b26034d9d47f41efea7904, type: 3}
+  - {fileID: 21300000, guid: 17877b34bf4dc194aa7a9e018ac83d15, type: 3}
+  - {fileID: 21300000, guid: 2286a9211e81a61439b5c5c1ac2d9e03, type: 3}
+  - {fileID: 21300000, guid: 4299f388837144a4596c2c6aa92464d9, type: 3}
+  - {fileID: 21300000, guid: 72ffe4182f91c104388732db8a839166, type: 3}
+  - {fileID: 21300000, guid: 7cd604b0fd3150848af97c01f70caf2a, type: 3}
+  - {fileID: 21300000, guid: c556697ad2cb2b2408cbab898973f5b2, type: 3}
+  - {fileID: 21300000, guid: db4d3992d3e697543924472e6da74ba3, type: 3}
+  <IdleAnimations>k__BackingField:
+  - character: Piter
+    frames:
+    - {fileID: 21300000, guid: cb6d2a66a1ca92d4e8b46c390f2f7b4b, type: 3}
+    - {fileID: 21300000, guid: da559a62a1644854fa47d60e58c53fe2, type: 3}
+    - {fileID: 21300000, guid: 4e4e2583aa782e54bb17f872413f86c4, type: 3}
+    - {fileID: 21300000, guid: 90d23b2d3998df343af6492505926133, type: 3}
+    - {fileID: 21300000, guid: cce1b794f36bed74a9673f40dbf48158, type: 3}
+    - {fileID: 21300000, guid: 57e05645fb1aa904bbf0600efe9a3218, type: 3}
+  - character: Aleksandra
+    frames:
+    - {fileID: 21300000, guid: 01aa3fce56b2cc347a88033deb142f72, type: 3}
+    - {fileID: 21300000, guid: 368453da55152474189e1810040b14ae, type: 3}
+    - {fileID: 21300000, guid: e8e8899f1eab7644b8703f42e3b4da69, type: 3}
+    - {fileID: 21300000, guid: cf4daf9fef4f39346b7c1c4742f13fc7, type: 3}
+    - {fileID: 21300000, guid: 31edfaed2213e47428de40dd17424822, type: 3}
+    - {fileID: 21300000, guid: 54f6f1ea9ade48b499adf07ff9d049fa, type: 3}
+  - character: Malachor
+    frames:
+    - {fileID: 21300000, guid: 5d5bcf82a99a67942b121c0a3ec8d6ec, type: 3}
+    - {fileID: 21300000, guid: e615023f2efb3b047952e7f939abf9c0, type: 3}
+    - {fileID: 21300000, guid: 5dcae5088f4214146a44d68479dd4888, type: 3}
+    - {fileID: 21300000, guid: b59ba7dd7873ab541af931d26197eb17, type: 3}
+    - {fileID: 21300000, guid: 0a71c8ab20c1a0a4599414df55a87193, type: 3}
+    - {fileID: 21300000, guid: 888ac79fcaeacb547bc70587fd5cb957, type: 3}
+  - character: Goblin
+    frames:
+    - {fileID: 21300000, guid: 7a49c6723bfe57842b2bdd31ab16c3c5, type: 3}
+    - {fileID: 21300000, guid: a3c1bb1346bb5884ea85bd7ef090ca9c, type: 3}
+    - {fileID: 21300000, guid: 2c1b029b5c993f047b80ea7f2b1a296c, type: 3}
+    - {fileID: 21300000, guid: e74fef02eab7ee64e846f9699e6b58e0, type: 3}
+    - {fileID: 21300000, guid: 03fb8a4151fd0f84d87ce39e16fe7fde, type: 3}
+    - {fileID: 21300000, guid: b535f576d6ec6874c93fa6d15b284ec9, type: 3}
+  - character: Skeleton
+    frames:
+    - {fileID: 21300000, guid: 32b89452143b5f44eb2f5a18016eaa15, type: 3}
+    - {fileID: 21300000, guid: 0de809229ad295d4cb396b55d1dede11, type: 3}
+    - {fileID: 21300000, guid: dd0b830342207e54f94a474c0b1b283a, type: 3}
+    - {fileID: 21300000, guid: f9658bb9ab7d4ea478b5bdef8c9c9c19, type: 3}
+    - {fileID: 21300000, guid: 55c9a3c11d0285246b355a9fd88a374d, type: 3}
+    - {fileID: 21300000, guid: 11e2ea6c0faa19b479d8ba3896d6d39b, type: 3}
+  - character: Wolf
+    frames:
+    - {fileID: 21300000, guid: 6632173d8ac04724fbe6db46c98cd5f5, type: 3}
+    - {fileID: 21300000, guid: 2edd964eb9accff429c76e29aeaa8141, type: 3}
+    - {fileID: 21300000, guid: 7ec8fb84874f4fd4797c628f90322efc, type: 3}
+    - {fileID: 21300000, guid: d98844ca4b7178d46aa5ac587fc85b6a, type: 3}
+    - {fileID: 21300000, guid: 0d42221af87a1b649ac1ccc8789ef745, type: 3}
+    - {fileID: 21300000, guid: da564e9285f58de4b8b67b9b87701584, type: 3}
+  - character: Harpy
+    frames:
+    - {fileID: 21300000, guid: 3833e4f9971dbc948a272dc1866cb923, type: 3}
+    - {fileID: 21300000, guid: 755a0253dd63b0141944c89e9e650c1d, type: 3}
+    - {fileID: 21300000, guid: c3c1adee6eebefc4dbfb91e6a06a2bdd, type: 3}
+    - {fileID: 21300000, guid: 02a59c748b95bd543a40bd5421ffa662, type: 3}
+    - {fileID: 21300000, guid: b33b983e2fd6fe146a5dc40c8dd6f09d, type: 3}
+    - {fileID: 21300000, guid: 51e8a6277c7681249bb2939a937b7cfb, type: 3}
+  - character: Golem
+    frames:
+    - {fileID: 21300000, guid: 5b7f2fadba552d94ab69e6c28bbf91f6, type: 3}
+    - {fileID: 21300000, guid: 6f391ceb0d7f4db4daa4b3ef3e0aace7, type: 3}
+    - {fileID: 21300000, guid: b434c9ce26093924681e5e48b088da6c, type: 3}
+    - {fileID: 21300000, guid: 12e1cfc04caa86744b3ddd6840fe3ce7, type: 3}
+    - {fileID: 21300000, guid: f2521113a0a98624a97b735ca66b148a, type: 3}
+    - {fileID: 21300000, guid: 3a8f26a0346438c43b741a199510abcc, type: 3}
+  - character: Dragon
+    frames:
+    - {fileID: 21300000, guid: 2d7be4de632c6394b82e94c7898ebde3, type: 3}
+    - {fileID: 21300000, guid: c55d08d745914d74d8cb78acbf7a0b78, type: 3}
+    - {fileID: 21300000, guid: 74bf7a5a09b1c8c4b9b829c2a43f00a5, type: 3}
+    - {fileID: 21300000, guid: dd5011303684e594fa84e379eb8acb9a, type: 3}
+    - {fileID: 21300000, guid: 3b9f47c0d117d664487ee2b7ad8e0686, type: 3}
+    - {fileID: 21300000, guid: 6f86eedc6fe3905459fdc29d57da99ff, type: 3}

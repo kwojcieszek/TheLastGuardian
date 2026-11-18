@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 493cb94b1c0032645ad71f2b968bb79d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_01_Village.unity
+    guid: a31928cf2ad9a284ca875fb82914f652
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_02_Forest.unity
+    guid: a2ebdeff427603a4aa480b8100c28129
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_03_Ruins.unity
+    guid: 7510fe6d02b1fd849a5052acf31223bf
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_04_Mine.unity
+    guid: 9cf025f9686d3c54ba6d94ca5cdf7bd1
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_05_Waterfall.unity
+    guid: 074c8ad09c30f3a4ebaf66ace211e045
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_06_Castle.unity
+    guid: ed68d5e004ab08b4c971654d21dc7dd6
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_07_DragonPass.unity
+    guid: 619d7eeabdfb3da47bd2e473a799a999
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_08_Catacombs.unity
+    guid: 41429b93aa56b0c4ab969c8b0712e679
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_09_Tower.unity
+    guid: a35d66692300f014a9d63aedfd690d20
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_10_Final.unity
+    guid: a67d6d3abe01441478a27c8eb7b55830
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

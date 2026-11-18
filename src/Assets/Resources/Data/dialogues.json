@@ -1,0 +1,148 @@
+[
+  {
+    "level": 1,
+    "lines": [
+      {
+        "speaker": "Aleksandra",
+        "text": "Piter! Help me!"
+      },
+      {
+        "speaker": "Malachor",
+        "text": "Your sister carries a light that belongs to me!"
+      },
+      {
+        "speaker": "Piter",
+        "text": "I will not let you hurt her. I am coming for you, Aleksandra!"
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "lines": [
+      {
+        "speaker": "Forest Spirit",
+        "text": "Follow the silver leaves. The shadows cannot see their glow."
+      },
+      {
+        "speaker": "Piter",
+        "text": "This forest hides more than goblins."
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "lines": [
+      {
+        "speaker": "Royal Guard",
+        "text": "Malachor has raised the soldiers of old."
+      },
+      {
+        "speaker": "Piter",
+        "text": "Their curse ends today."
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "lines": [
+      {
+        "speaker": "Aleksandra",
+        "text": "Piter... if you can hear me, do not give up."
+      },
+      {
+        "speaker": "Piter",
+        "text": "I hear you! I am coming!"
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "lines": [
+      {
+        "speaker": "Piter",
+        "text": "The map shows a castle on the hill."
+      },
+      {
+        "speaker": "Aleksandra",
+        "text": "Look for the sun symbol by the old bridge."
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "lines": [
+      {
+        "speaker": "Gate Guardian",
+        "text": "No human will pass through this gate!"
+      },
+      {
+        "speaker": "Piter",
+        "text": "Then a brother will."
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "lines": [
+      {
+        "speaker": "Piter",
+        "text": "I do not have to kill you, dragon. Go in peace."
+      },
+      {
+        "speaker": "Young Dragon",
+        "text": "Grrrr..."
+      },
+      {
+        "speaker": "Piter",
+        "text": "Thank you for showing me the passage."
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "lines": [
+      {
+        "speaker": "Forest Spirit",
+        "text": "Three seals will weaken Malachor’s spell."
+      },
+      {
+        "speaker": "Piter",
+        "text": "I will carry them to the tower."
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "lines": [
+      {
+        "speaker": "Aleksandra",
+        "text": "Piter! The barrier is too strong!"
+      },
+      {
+        "speaker": "Piter",
+        "text": "Hold on. I will destroy the crystals."
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "lines": [
+      {
+        "speaker": "Malachor",
+        "text": "Aleksandra’s light will power my greatest spell!"
+      },
+      {
+        "speaker": "Piter",
+        "text": "You will never abduct anyone again."
+      },
+      {
+        "speaker": "Aleksandra",
+        "text": "I knew you would come for me."
+      },
+      {
+        "speaker": "Piter",
+        "text": "Always. Let’s go home."
+      }
+    ]
+  }
+]
